@@ -1,0 +1,24 @@
+[
+  {
+    "Id": 1,
+    "MetricDate": "2023-07-31T00:00:00",
+    "TotalSales": 50000.0,
+    "TotalOrders": 100,
+    "TotalCustomers": 40,
+    "TopProductId": 2,
+    "CreatedDate": "2023-07-31T23:59:00",
+    "ModifiedDate": "2023-07-31T23:59:00",
+    "IsLocked": "True"
+  },
+  {
+    "Id": 2,
+    "MetricDate": "2023-07-31T00:00:00",
+    "TotalSales": 53000.0,
+    "TotalOrders": 108,
+    "TotalCustomers": 45,
+    "TopProductId": 3,
+    "CreatedDate": "2023-08-02T09:15:00",
+    "ModifiedDate": "2023-08-02T09:15:00",
+    "IsLocked": "False"
+  }
+]

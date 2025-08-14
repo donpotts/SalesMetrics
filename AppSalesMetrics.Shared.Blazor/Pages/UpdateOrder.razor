@@ -1,0 +1,150 @@
+@inject AppService AppService
+@inject ISnackbar Snackbar
+@inject HttpClient HttpClient
+
+@if (record == null)
+{
+    <MudDialog>
+        <TitleContent>
+            <MudText Typo="Typo.h6">Update Order</MudText>
+        </TitleContent>
+        <DialogContent>
+            <MudText>Loading...</MudText>
+        </DialogContent>
+        <DialogActions>
+            <MudButton OnClick="OnCancel">Cancel</MudButton>
+            <MudButton Color="Color.Primary" Disabled="true">Update</MudButton>
+        </DialogActions>
+    </MudDialog>
+}
+else
+{
+    <EditForm Model="@record" OnValidSubmit="@OnSubmit">
+        <DataAnnotationsValidator />
+        <MudDialog>
+            <TitleContent>
+                <MudText Typo="Typo.h6">Update Order</MudText>
+            </TitleContent>
+            <DialogContent>
+                <MudNumericField @bind-Value="record.Id" For="@(() => record.Id)" Label="Id" ReadOnly="true" />
+                <MudTextField Format="s" InputType="InputType.DateTimeLocal" @bind-Value="record.OrderDate" For="@(() => record.OrderDate)" Label="OrderDate" />
+                <MudNumericField @bind-Value="record.TotalAmount" For="@(() => record.TotalAmount)" Label="TotalAmount" />
+                <MudTextField @bind-Value="record.Status" For="@(() => record.Status)" Label="Status" />
+                <MudTextField @bind-Value="record.Notes" For="@(() => record.Notes)" Label="Notes" />
+                <MudTextField Format="s" InputType="InputType.DateTimeLocal" @bind-Value="record.CreatedDate" For="@(() => record.CreatedDate)" Label="CreatedDate" />
+                <MudTextField Format="s" InputType="InputType.DateTimeLocal" @bind-Value="record.ModifiedDate" For="@(() => record.ModifiedDate)" Label="ModifiedDate" />
+                <MudSelect @bind-Value="record.CustomerId" For="@(() => record.CustomerId)" Label="Customer" AnchorOrigin="Origin.BottomCenter">
+                    <MudSelectItem T="long?" Value="null" />
+                    @foreach (var customer in customerArray ?? Enumerable.Empty<Customer>())
+                    {
+                        <MudSelectItem Value="@customer.Id">@customer.Name</MudSelectItem>
+                    }
+                </MudSelect>
+                <MudSelect T="long?" Label="OrderItem" MultiSelection="true" @bind-SelectedValues="orderItemValues" MultiSelectionTextFunc="@(x => string.Join(", ", x.Select(s => orderItemArray?.FirstOrDefault(i => i.Id?.ToString() == s)?.Id)))" AnchorOrigin="Origin.BottomCenter">
+                    @foreach (var orderItem in orderItemArray ?? Enumerable.Empty<OrderItem>())
+                    {
+                        <MudSelectItem T="long?" Value="@orderItem.Id">@orderItem.Id</MudSelectItem>
+                    }
+                </MudSelect>
+
+            </DialogContent>
+            <DialogActions>
+                <MudButton OnClick="OnCancel">Cancel</MudButton>
+                <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary">Update</MudButton>
+            </DialogActions>
+        </MudDialog>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public long Id { get; set; }
+
+    [CascadingParameter]
+    IMudDialogInstance? MudDialog { get; set; }
+
+    private Customer[]? customerArray;
+    private OrderItem[]? orderItemArray;
+    private IEnumerable<long?>? orderItemValues;
+    private Order? record;
+
+    private string GetAbsoluteUri(string uri)
+    {
+        if (!uri.StartsWith("/"))
+        {
+            return uri;
+        }
+
+        var baseUri = HttpClient.BaseAddress;
+
+        if (baseUri == null)
+        {
+            throw new Exception("Unable to determine base address");
+        }
+
+        Uri absolute = new(baseUri, uri);
+
+        return absolute.ToString();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            customerArray = await AppService.ListCustomerAsync();
+            orderItemArray = await AppService.ListOrderItemAsync();
+            record = await AppService.GetOrderByIdAsync(Id);
+            orderItemValues = record?.OrderItem?.Select(x => x.Id).ToHashSet() ?? [];
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add(ex.Message, Severity.Error);
+        }
+    }
+
+    private void OnCancel()
+    {
+        MudDialog?.Cancel();
+    }
+
+    private async void OnSubmit()
+    {
+        if (record == null)
+        {
+            return;
+        }
+
+        try
+        {
+            record.OrderItem = orderItemValues?.Select(x => new OrderItem { Id = x }).ToList();
+            await AppService.UpdateOrderAsync(Id, record);
+            MudDialog?.Close();
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add(ex.Message, Severity.Error);
+        }
+    }
+
+    private async Task<string?> UploadImageAsync(IBrowserFile file, int maxWidth = 256, int maxHeight = 256)
+    {
+        if (file.ContentType != "image/png" && file.ContentType != "image/jpeg")
+        {
+            Snackbar.Add("Only PNG or JPEG images can be uploaded.", Severity.Error);
+            return null;
+        }
+
+        var image = await file.RequestImageFileAsync("image/png", maxWidth, maxHeight);
+
+        try
+        {
+            return await AppService.UploadImageAsync(image);
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add(ex.Message, Severity.Error);
+        }
+
+        return null;
+    }
+}

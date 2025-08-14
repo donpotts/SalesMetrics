@@ -1,0 +1,53 @@
+Id,Name,Description,Price,StockQuantity,Photo,Notes,CreatedDate,ModifiedDate
+1,Wireless Mouse,Ergonomic wireless mouse with adjustable DPI,29.99,150,product_1.jpg,,2025-08-13 16:35:45,2025-08-13 16:35:45
+2,Bluetooth Speaker,Portable speaker with high-quality sound and long battery life,49.99,80,product_2.jpg,,2025-08-13 16:35:45,2025-08-13 16:35:45
+3,Notebook,Hardcover notebook with 200 lined pages,5.99,300,product_3.jpg,,2025-08-13 16:35:45,2025-08-13 16:35:45
+4,Desk Lamp,LED desk lamp with adjustable brightness and color temperature,39.99,60,product_3.jpg,,2025-08-13 16:35:45,2025-08-13 16:35:45
+5,USB-C Cable,"Durable USB-C to USB-A cable, 1 meter length",9.99,200,product_5.jpg,,2025-08-13 16:35:45,2025-08-13 16:35:45
+6,Smartphone Stand,Smartphone Stand with advanced features and modern design,263.31,360,product_6.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+7,Gaming Keyboard,Gaming Keyboard with advanced features and modern design,220.35,86,product_7.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+8,Noise-Canceling Headphones,Noise-Canceling Headphones with advanced features and modern design,280.76,119,product_8.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+9,Fitness Tracker,Fitness Tracker with advanced features and modern design,93.89,287,product_9.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+10,Portable Charger,Portable Charger with advanced features and modern design,284.67,344,product_10.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+11,Smart LED Bulb,Smart LED Bulb with advanced features and modern design,135.67,26,product_11.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+12,Laptop Sleeve,Laptop Sleeve with advanced features and modern design,72.22,280,product_12.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+13,Wireless Earbuds,Wireless Earbuds with advanced features and modern design,57.59,319,product_13.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+14,Action Camera,Action Camera with advanced features and modern design,287.67,347,product_14.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+15,Electric Toothbrush,Electric Toothbrush with advanced features and modern design,183.34,154,product_15.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+16,Smart Thermostat,Smart Thermostat with advanced features and modern design,108.7,484,product_16.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+17,Streaming Device,Streaming Device with advanced features and modern design,90.03,303,product_17.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+18,Bluetooth Tracker,Bluetooth Tracker with advanced features and modern design,126.57,344,product_18.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+19,Mini Projector,Mini Projector with advanced features and modern design,94.06,453,product_19.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+20,Smart Plug,Smart Plug with advanced features and modern design,253.64,27,product_20.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+21,Digital Photo Frame,Digital Photo Frame with advanced features and modern design,136.15,498,product_21.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+22,VR Headset,VR Headset with advanced features and modern design,203.09,274,product_22.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+23,Smart Scale,Smart Scale with advanced features and modern design,133.88,439,product_23.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+24,Robot Vacuum,Robot Vacuum with advanced features and modern design,25.42,448,product_24.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+25,Wireless Router,Wireless Router with advanced features and modern design,292.15,336,product_25.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+26,Dash Cam,Dash Cam with advanced features and modern design,45.36,160,product_26.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+27,Smart Lock,Smart Lock with advanced features and modern design,250.43,20,product_27.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+28,3D Printer,3D Printer with advanced features and modern design,208.27,296,product_28.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+29,Graphic Tablet,Graphic Tablet with advanced features and modern design,113.55,239,product_29.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+30,Portable SSD,Portable SSD with advanced features and modern design,95.13,176,product_30.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+31,Smartwatch,Smartwatch with advanced features and modern design,192.62,492,product_31.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+32,Laptop Cooling Pad,Laptop Cooling Pad with advanced features and modern design,239.28,314,product_32.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+33,USB Hub,USB Hub with advanced features and modern design,125.35,207,product_33.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+34,Webcam,Webcam with advanced features and modern design,60.41,381,product_34.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+35,Mechanical Pencil,Mechanical Pencil with advanced features and modern design,262.77,457,product_35.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+36,Drawing Pad,Drawing Pad with advanced features and modern design,14.81,125,product_36.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+37,Monitor Stand,Monitor Stand with advanced features and modern design,28.63,283,product_37.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+38,Cable Organizer,Cable Organizer with advanced features and modern design,222.16,407,product_38.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+39,Phone Tripod,Phone Tripod with advanced features and modern design,257.92,98,product_39.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+40,LED Strip Lights,LED Strip Lights with advanced features and modern design,38.22,383,product_40.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+41,Smart Doorbell,Smart Doorbell with advanced features and modern design,200.35,332,product_41.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+42,Wireless Presenter,Wireless Presenter with advanced features and modern design,271.61,447,product_42.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+43,Ergonomic Chair,Ergonomic Chair with advanced features and modern design,71.91,148,product_43.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+44,Standing Desk,Standing Desk with advanced features and modern design,10.87,57,product_44.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+45,Smart Mirror,Smart Mirror with advanced features and modern design,292.28,496,product_45.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+46,Fingerprint Padlock,Fingerprint Padlock with advanced features and modern design,253.43,305,product_46.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+47,Smart Glasses,Smart Glasses with advanced features and modern design,294.78,270,product_47.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+48,Solar Power Bank,Solar Power Bank with advanced features and modern design,14.29,263,product_48.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+49,Digital Alarm Clock,Digital Alarm Clock with advanced features and modern design,298.19,128,product_49.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+50,Smart Mug,Smart Mug with advanced features and modern design,233.58,433,product_50.jpg,,2025-08-14 14:16:54,2025-08-14 14:16:54
+
+

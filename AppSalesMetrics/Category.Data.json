@@ -1,0 +1,212 @@
+[
+  {
+    "Id": "1",
+    "Name": "Electronics",
+    "Description": "Devices and gadgets",
+    "CreatedDate": "2023-01-10",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "2",
+    "Name": "Books",
+    "Description": "Printed and digital books",
+    "CreatedDate": "2023-02-05",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "3",
+    "Name": "Clothing",
+    "Description": "Apparel and accessories",
+    "CreatedDate": "2023-03-12",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "4",
+    "Name": "Home & Kitchen",
+    "Description": "Furniture and kitchenware",
+    "CreatedDate": "2023-04-18",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "5",
+    "Name": "Sports",
+    "Description": "Sporting goods and equipment",
+    "CreatedDate": "2023-05-25",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "6",
+    "Name": "Toys",
+    "Description": "Children's toys and games",
+    "CreatedDate": "2023-06-01",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "7",
+    "Name": "Automotive",
+    "Description": "Car parts and accessories",
+    "CreatedDate": "2023-06-02",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "8",
+    "Name": "Beauty",
+    "Description": "Cosmetics and skincare",
+    "CreatedDate": "2023-06-03",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "9",
+    "Name": "Health",
+    "Description": "Healthcare products",
+    "CreatedDate": "2023-06-04",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "10",
+    "Name": "Garden",
+    "Description": "Gardening tools and plants",
+    "CreatedDate": "2023-06-05",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "11",
+    "Name": "Music",
+    "Description": "Musical instruments and media",
+    "CreatedDate": "2023-06-06",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "12",
+    "Name": "Movies",
+    "Description": "DVDs and streaming media",
+    "CreatedDate": "2023-06-07",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "13",
+    "Name": "Pet Supplies",
+    "Description": "Products for pets",
+    "CreatedDate": "2023-06-08",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "14",
+    "Name": "Office Supplies",
+    "Description": "Stationery and office equipment",
+    "CreatedDate": "2023-06-09",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "15",
+    "Name": "Groceries",
+    "Description": "Food and beverages",
+    "CreatedDate": "2023-06-10",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "16",
+    "Name": "Jewelry",
+    "Description": "Rings, necklaces, and more",
+    "CreatedDate": "2023-06-11",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "17",
+    "Name": "Watches",
+    "Description": "Timepieces and accessories",
+    "CreatedDate": "2023-06-12",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "18",
+    "Name": "Footwear",
+    "Description": "Shoes and sandals",
+    "CreatedDate": "2023-06-13",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "19",
+    "Name": "Baby Products",
+    "Description": "Items for infants and toddlers",
+    "CreatedDate": "2023-06-14",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "20",
+    "Name": "Travel",
+    "Description": "Luggage and travel accessories",
+    "CreatedDate": "2023-06-15",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "21",
+    "Name": "Art",
+    "Description": "Art supplies and decor",
+    "CreatedDate": "2023-06-16",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "22",
+    "Name": "Crafts",
+    "Description": "DIY and crafting materials",
+    "CreatedDate": "2023-06-17",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "23",
+    "Name": "Industrial",
+    "Description": "Industrial tools and equipment",
+    "CreatedDate": "2023-06-18",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "24",
+    "Name": "Software",
+    "Description": "Computer programs and apps",
+    "CreatedDate": "2023-06-19",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "25",
+    "Name": "Hardware",
+    "Description": "Computer components",
+    "CreatedDate": "2023-06-20",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "26",
+    "Name": "Gaming",
+    "Description": "Video games and consoles",
+    "CreatedDate": "2023-06-21",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "27",
+    "Name": "Photography",
+    "Description": "Cameras and accessories",
+    "CreatedDate": "2023-06-22",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "28",
+    "Name": "Cleaning",
+    "Description": "Cleaning supplies",
+    "CreatedDate": "2023-06-23",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "29",
+    "Name": "Fitness",
+    "Description": "Exercise equipment",
+    "CreatedDate": "2023-06-24",
+    "ModifiedDate": null
+  },
+  {
+    "Id": "30",
+    "Name": "Safety",
+    "Description": "Safety gear and equipment",
+    "CreatedDate": "2023-06-25",
+    "ModifiedDate": null
+  }
+]

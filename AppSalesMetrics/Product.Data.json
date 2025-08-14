@@ -1,0 +1,57 @@
+[
+  {
+    "Id": 1,
+    "Name": "Wireless Mouse",
+    "Description": "Ergonomic wireless mouse with adjustable DPI",
+    "Price": 29.99,
+    "StockQuantity": 150,
+    "Photo": "/upload/image/product_1.jpg",
+    "Notes": "",
+    "CreatedDate": "2025-08-13T16:35:45",
+    "ModifiedDate": "2025-08-13T16:35:45"
+  },
+  {
+    "Id": 2,
+    "Name": "Bluetooth Speaker",
+    "Description": "Portable speaker with high-quality sound and long battery life",
+    "Price": 49.99,
+    "StockQuantity": 80,
+    "Photo": "/upload/image/product_2.jpg",
+    "Notes": "",
+    "CreatedDate": "2025-08-13T16:35:45",
+    "ModifiedDate": "2025-08-13T16:35:45"
+  },
+  {
+    "Id": 3,
+    "Name": "Notebook",
+    "Description": "Hardcover notebook with 200 lined pages",
+    "Price": 5.99,
+    "StockQuantity": 300,
+    "Photo": "/upload/image/product_3.jpg",
+    "Notes": "",
+    "CreatedDate": "2025-08-13T16:35:45",
+    "ModifiedDate": "2025-08-13T16:35:45"
+  },
+  {
+    "Id": 4,
+    "Name": "Desk Lamp",
+    "Description": "LED desk lamp with adjustable brightness and color temperature",
+    "Price": 39.99,
+    "StockQuantity": 60,
+    "Photo": "/upload/image/product_3.jpg",
+    "Notes": "",
+    "CreatedDate": "2025-08-13T16:35:45",
+    "ModifiedDate": "2025-08-13T16:35:45"
+  },
+  {
+    "Id": 5,
+    "Name": "USB-C Cable",
+    "Description": "Durable USB-C to USB-A cable, 1 meter length",
+    "Price": 9.99,
+    "StockQuantity": 200,
+    "Photo": "/upload/image/product_5.jpg",
+    "Notes": "",
+    "CreatedDate": "2025-08-13T16:35:45",
+    "ModifiedDate": "2025-08-13T16:35:45"
+  }
+]

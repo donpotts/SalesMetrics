@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AppSalesMetrics.ConsoleClient": {
+      "commandName": "Project",
+      "commandLineArgs": "Order.csv"
+    }
+  }
+}

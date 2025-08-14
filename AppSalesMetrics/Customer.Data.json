@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Name": "Alice Smith",
+    "Email": "alice@example.com",
+    "Phone": "123-456-7890",
+    "Address": "123 Maple St",
+    "Notes": "",
+    "CreatedDate": "2025-08-13T16:26:56",
+    "ModifiedDate": "2025-08-13T16:26:56"
+  },
+  {
+    "Id": 2,
+    "Name": "Bob Johnson",
+    "Email": "bob@example.com",
+    "Phone": "234-567-8901",
+    "Address": "456 Oak St",
+    "Notes": "",
+    "CreatedDate": "2025-08-13T16:26:56",
+    "ModifiedDate": "2025-08-13T16:26:56"
+  }
+]
